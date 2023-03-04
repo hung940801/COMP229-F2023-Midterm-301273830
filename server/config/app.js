@@ -1,3 +1,12 @@
+///////////////////////////////////////////////////////////
+// 
+// File name:       server/config/app.js
+// Author's name:   Sai Hung Chau
+// Student ID:      301273830
+// Web App name:    COMP229-F2023-MidTerm-301273830
+// 
+///////////////////////////////////////////////////////////
+
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');
