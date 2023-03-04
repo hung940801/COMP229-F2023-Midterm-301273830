@@ -108,6 +108,7 @@ $.fn.pageMe = function(opts){
   $(".btn-danger").click(function(event){
     if(!confirm("Are you sure?")) {
       event.preventDefault();
+    //   comment out the direction for wrong url
     //   window.location.assign("/games");
     }
   });

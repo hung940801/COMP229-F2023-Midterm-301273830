@@ -1,3 +1,14 @@
+<!-- 
+///////////////////////////////////////////////////////////
+// 
+// File name:       views/partials/headers.ejs
+// Author's name:   Sai Hung Chau
+// Student ID:      301273830
+// Web App name:    COMP229-F2023-MidTerm-301273830
+// 
+///////////////////////////////////////////////////////////
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +44,7 @@
           <li><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
         <% } %>
 
-          <% if(title == "books") { %>
+          <% if(title == "Books" || title == "Add Book" || title == "Edit Book") { %>
           <li class="active"><a href="/books"><i class="fa fa-book fa-lg">
           </i> Books List</a></li>
           <% } else { %>
